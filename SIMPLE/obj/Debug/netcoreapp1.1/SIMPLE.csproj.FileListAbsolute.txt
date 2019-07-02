@@ -1,9 +1,0 @@
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\bin\Debug\netcoreapp1.1\SIMPLE.deps.json
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\bin\Debug\netcoreapp1.1\SIMPLE.runtimeconfig.json
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\bin\Debug\netcoreapp1.1\SIMPLE.runtimeconfig.dev.json
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\bin\Debug\netcoreapp1.1\SIMPLE.dll
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\bin\Debug\netcoreapp1.1\SIMPLE.pdb
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\obj\Debug\netcoreapp1.1\SIMPLE.csproj.CoreCompileInputs.cache
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\obj\Debug\netcoreapp1.1\SIMPLE.AssemblyInfo.cs
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\obj\Debug\netcoreapp1.1\SIMPLE.dll
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SIMPLE\obj\Debug\netcoreapp1.1\SIMPLE.pdb
