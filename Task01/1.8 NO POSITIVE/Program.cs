@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using ARRAY_PROCESSING;
 
-namespace ARRAY_PROCESSING
-{
     namespace _1._8_NO_POSITIVE
     {
         class Program
@@ -44,4 +40,3 @@ namespace ARRAY_PROCESSING
             }
         }
     }
-}

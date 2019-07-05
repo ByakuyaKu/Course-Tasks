@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace _1._10_2D_ARRAY
 {
@@ -6,17 +7,37 @@ namespace _1._10_2D_ARRAY
     {
         static void Main(string[] args)
         {
-            string n = Console.ReadLine();
-            Array_2D(Convert.ToUInt32(n));
+            Array_2D();
+            Console.ReadKey();
         }
-        static void Array_2D(uint z)
+
+        static bool Odd_check(int z) => z % 2 == 0;
+
+        static void Array_2D()
         {
-            string s = null;
-            for (uint i = 0; i < z; i++)
+            List<List<int>> Array = new List<List<int>>();
+            List<int> row = new List<int>();               
+            int n = 3, sum = 0;
+
+            for (int i = 0; i < n; i++)
             {
-                s += "*";
-                Console.WriteLine(s);
-            }       
+                row = new List<int>();
+                for (int j = 0; j < n; j++)
+                    row.Add(3); 
+                Array.Add(row);                              
             }
+
+            for (int i = 0; i < n; i++)                    
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (Odd_check(i + j))
+                        sum += Array[i][j];
+                    Console.Write(Array[i][j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("sum = " + sum);
         }
+    }
 }
