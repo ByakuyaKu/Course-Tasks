@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _1._7_ARRAY_PROCESSING
+namespace ARRAY_PROCESSING
 {
-    class Program
+    public class ARRAY_PROCESSING
     {
         private static void Main(string[] args)
         {
