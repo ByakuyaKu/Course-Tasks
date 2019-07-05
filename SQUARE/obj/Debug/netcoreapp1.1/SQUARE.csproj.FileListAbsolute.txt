@@ -1,9 +1,0 @@
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\bin\Debug\netcoreapp1.1\SQUARE.deps.json
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\bin\Debug\netcoreapp1.1\SQUARE.runtimeconfig.json
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\bin\Debug\netcoreapp1.1\SQUARE.runtimeconfig.dev.json
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\bin\Debug\netcoreapp1.1\SQUARE.dll
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\bin\Debug\netcoreapp1.1\SQUARE.pdb
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\obj\Debug\netcoreapp1.1\SQUARE.csproj.CoreCompileInputs.cache
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\obj\Debug\netcoreapp1.1\SQUARE.AssemblyInfo.cs
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\obj\Debug\netcoreapp1.1\SQUARE.dll
-C:\Users\Aspire R5-571PG\source\repos\Course-C#\Task00\SQUARE\obj\Debug\netcoreapp1.1\SQUARE.pdb
