@@ -7,6 +7,11 @@ namespace _1._6_FONT_ADJUSTMENT
     {
         static void Main(string[] args)
         {
+            Font_Adjustment();
+        }
+
+        static void Font_Adjustment()
+        {
             ConsoleKeyInfo e;
             List<bool> pressed = new List<bool>() { false, false, false };
             int i = -1;
