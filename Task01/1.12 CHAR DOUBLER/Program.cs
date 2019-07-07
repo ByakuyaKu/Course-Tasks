@@ -6,7 +6,7 @@ namespace _1._12_CHAR_DOUBLER
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter firs string");
+            Console.WriteLine("Enter first string");
             string inputstr1 = Console.ReadLine();
             Console.WriteLine("Enter second string (doubler)");
             string inputstr2 = Console.ReadLine();
