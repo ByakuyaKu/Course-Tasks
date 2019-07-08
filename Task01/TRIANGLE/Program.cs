@@ -16,7 +16,7 @@ namespace TRIANGLE
         {
             uint a;
             if (UInt32.TryParse(s, out a))
-                Triangle(Convert.ToUInt32(s));
+                Triangle(a);
             else
                 Console.WriteLine("You can enter only integer n>=0");
         }

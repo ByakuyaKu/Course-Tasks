@@ -54,7 +54,7 @@ namespace _1._6_FONT_ADJUSTMENT
                         break;
                 }
 
-                Console.WriteLine("Font propetrys is:");
+                Console.WriteLine("Font propetries is:");
 
                 for (int j = 0; j < pressed.Count; j++)
                 {

@@ -11,39 +11,46 @@ namespace RECTANGLE
 
         static void Input()
         {
-            string a = "a";
-            string b = "a";
-            while (Input_Check(a) == false | Input_Check(a) == false)
+            Console.WriteLine("Enter a");
+            string a = Console.ReadLine();
+
+            Console.WriteLine("Enter b");
+            string b = Console.ReadLine();
+
+            while (Input_Check(a, b) == false)
             {
+                Console.WriteLine("Enter a");
                 a = Console.ReadLine();
+
+                Console.WriteLine("Enter b");
                 b = Console.ReadLine();
             }
-            Print(a, b);
+
+            Print(Convert.ToInt32(a), Convert.ToInt32(b));
             Console.ReadKey();
         }
 
-        static void Print(string sa, string sb) => Console.WriteLine(Square(Convert.ToInt32(sa), Convert.ToInt32(sb)));
 
-        static void Ignore() => Input();
+        static void Print(int a, int b) => Console.WriteLine(Square(a, b));
 
-        static bool Input_Check(string s)
+        static bool Input_Check(string sa, string sb)
         {
-            bool result = false;
-            uint a;
-            float d;
-            //if (UInt32.TryParse(s, out a) && s != "0")
-            //    result = true;
-            //else
-            //    if (Convert.ToInt32(s) <= 0)
-            //        Console.WriteLine("You can enter only a > 0 and b > 0");
-
-            if (!(UInt32.TryParse(s, out a)) | float.TryParse(s, out d))
-                Ignore();
+            bool result = true;
+            int a;
+            int b;
+            if (!Int32.TryParse(sb, out a))
+                result = false;
             else
-                if (UInt32.TryParse(s, out a) && s != "0")
-                    result = true;
+                if (!Int32.TryParse(sb, out b))
+                result = false;
+            else
+                if (a <= 0 | b <= 0)
+            {
+                Console.WriteLine("Enter only integer n > 0");
+                result = false;
+            }
 
-            return result;
+                return result;
         }
 
         static int Square(int a, int b) => a * b;

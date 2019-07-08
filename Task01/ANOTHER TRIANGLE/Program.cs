@@ -29,7 +29,7 @@ namespace ANOTHER_TRIANGLE
 
             int a;
             if (Int32.TryParse(s, out a))
-                if (!Odd_check(Convert.ToInt32(s)) | Convert.ToInt32(s) <= 0) 
+                if (!Odd_check(a) | a <= 0) 
                     result = false;
             return result;
         }
