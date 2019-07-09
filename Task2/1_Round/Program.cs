@@ -12,13 +12,20 @@ namespace _1_Round
 
         public class Round
         {
-            public int Center_X;
-            public int Center_Y;
-            public int Radius;
+            public Round Center_X;
+            public Round Center_Y;
+            public Round Radius;
 
             public double Length_of_Round(double r) => 3.14 * 2 * r;
 
             public double Square_of_Round(double r) => 3.14 * r * r;
+
+            public Round(int x, int y, int r)
+            {
+                this.Center_X = x;
+                this.Center_Y = y;
+                this.Radius = r;
+            }
 
             public void Input_Round()
             {
@@ -36,6 +43,7 @@ namespace _1_Round
                 Console.WriteLine("Center(" + x + ", " + y + ")" + " radius: " + r);
                 Console.WriteLine("Length of round = " + new Round().Length_of_Round(r) +
                                   " Square of Round = " + new Round().Square_of_Round(r));
+                Console.WriteLine(r.GetType());
             }
         }
 
