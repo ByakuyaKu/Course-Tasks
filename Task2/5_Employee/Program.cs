@@ -1,4 +1,5 @@
 ﻿using System;
+using _3_User;
 
 namespace _5_Employee
 {
@@ -6,7 +7,9 @@ namespace _5_Employee
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee user1 = new Employee("Jmishenko", "Valerii", "Albertovuch", 1965, 02, 28, 3, 10);
+            Console.WriteLine(user1);
+            Console.ReadKey();
         }
     }
 }

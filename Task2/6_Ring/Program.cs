@@ -6,7 +6,9 @@ namespace _6_Ring
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Ring ring = new Ring(-3, 1, 18, 19);
+            Console.WriteLine(ring);
+            Console.ReadKey();
         }
     }
 }

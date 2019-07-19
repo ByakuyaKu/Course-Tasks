@@ -6,7 +6,9 @@ namespace _3_User
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            User user1 = new User("Jmishenko", "Valerii", "Albertovuch", 1965, 02, 28);
+            Console.WriteLine(user1);
+            Console.ReadKey();
         }
     }
 }
