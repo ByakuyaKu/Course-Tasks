@@ -1,0 +1,11 @@
+D:\Projects\XT_NET\Custom_Sort\To_Int\bin\Debug\netcoreapp2.1\To_Int.deps.json
+D:\Projects\XT_NET\Custom_Sort\To_Int\bin\Debug\netcoreapp2.1\To_Int.runtimeconfig.json
+D:\Projects\XT_NET\Custom_Sort\To_Int\bin\Debug\netcoreapp2.1\To_Int.runtimeconfig.dev.json
+D:\Projects\XT_NET\Custom_Sort\To_Int\bin\Debug\netcoreapp2.1\To_Int.dll
+D:\Projects\XT_NET\Custom_Sort\To_Int\bin\Debug\netcoreapp2.1\To_Int.pdb
+D:\Projects\XT_NET\Custom_Sort\To_Int\obj\Debug\netcoreapp2.1\To_Int.csproj.CoreCompileInputs.cache
+D:\Projects\XT_NET\Custom_Sort\To_Int\obj\Debug\netcoreapp2.1\To_Int.AssemblyInfoInputs.cache
+D:\Projects\XT_NET\Custom_Sort\To_Int\obj\Debug\netcoreapp2.1\To_Int.AssemblyInfo.cs
+D:\Projects\XT_NET\Custom_Sort\To_Int\obj\Debug\netcoreapp2.1\To_Int.dll
+D:\Projects\XT_NET\Custom_Sort\To_Int\obj\Debug\netcoreapp2.1\To_Int.pdb
+D:\Projects\XT_NET\Custom_Sort\To_Int\obj\Debug\netcoreapp2.1\To_Int.csprojAssemblyReference.cache

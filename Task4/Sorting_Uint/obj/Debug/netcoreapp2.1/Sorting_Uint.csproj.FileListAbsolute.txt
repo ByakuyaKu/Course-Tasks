@@ -1,0 +1,11 @@
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\obj\Debug\netcoreapp2.1\Sorting_Uint.csprojAssemblyReference.cache
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\obj\Debug\netcoreapp2.1\Sorting_Uint.csproj.CoreCompileInputs.cache
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\obj\Debug\netcoreapp2.1\Sorting_Uint.AssemblyInfoInputs.cache
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\obj\Debug\netcoreapp2.1\Sorting_Uint.AssemblyInfo.cs
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\bin\Debug\netcoreapp2.1\Sorting_Uint.deps.json
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\bin\Debug\netcoreapp2.1\Sorting_Uint.runtimeconfig.json
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\bin\Debug\netcoreapp2.1\Sorting_Uint.runtimeconfig.dev.json
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\bin\Debug\netcoreapp2.1\Sorting_Uint.dll
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\bin\Debug\netcoreapp2.1\Sorting_Uint.pdb
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\obj\Debug\netcoreapp2.1\Sorting_Uint.dll
+D:\Projects\XT_NET\Custom_Sort\Sorting_Uint\obj\Debug\netcoreapp2.1\Sorting_Uint.pdb

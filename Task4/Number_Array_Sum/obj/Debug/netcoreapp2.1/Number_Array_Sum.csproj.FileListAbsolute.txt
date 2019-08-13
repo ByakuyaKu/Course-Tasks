@@ -1,0 +1,10 @@
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\obj\Debug\netcoreapp2.1\Number_Array_Sum.csproj.CoreCompileInputs.cache
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\obj\Debug\netcoreapp2.1\Number_Array_Sum.AssemblyInfoInputs.cache
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\obj\Debug\netcoreapp2.1\Number_Array_Sum.AssemblyInfo.cs
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\bin\Debug\netcoreapp2.1\Number_Array_Sum.deps.json
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\bin\Debug\netcoreapp2.1\Number_Array_Sum.runtimeconfig.json
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\bin\Debug\netcoreapp2.1\Number_Array_Sum.runtimeconfig.dev.json
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\bin\Debug\netcoreapp2.1\Number_Array_Sum.dll
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\bin\Debug\netcoreapp2.1\Number_Array_Sum.pdb
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\obj\Debug\netcoreapp2.1\Number_Array_Sum.dll
+D:\Projects\XT_NET\Custom_Sort\Number_Array_Sum\obj\Debug\netcoreapp2.1\Number_Array_Sum.pdb

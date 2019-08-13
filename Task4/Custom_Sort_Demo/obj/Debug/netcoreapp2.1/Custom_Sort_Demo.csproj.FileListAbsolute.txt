@@ -1,0 +1,11 @@
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\obj\Debug\netcoreapp2.1\Custom_Sort_Demo.csprojAssemblyReference.cache
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\obj\Debug\netcoreapp2.1\Custom_Sort_Demo.csproj.CoreCompileInputs.cache
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\obj\Debug\netcoreapp2.1\Custom_Sort_Demo.AssemblyInfoInputs.cache
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\obj\Debug\netcoreapp2.1\Custom_Sort_Demo.AssemblyInfo.cs
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\bin\Debug\netcoreapp2.1\Custom_Sort_Demo.deps.json
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\bin\Debug\netcoreapp2.1\Custom_Sort_Demo.runtimeconfig.json
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\bin\Debug\netcoreapp2.1\Custom_Sort_Demo.runtimeconfig.dev.json
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\bin\Debug\netcoreapp2.1\Custom_Sort_Demo.dll
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\bin\Debug\netcoreapp2.1\Custom_Sort_Demo.pdb
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\obj\Debug\netcoreapp2.1\Custom_Sort_Demo.dll
+D:\Projects\XT_NET\Custom_Sort\Custom_Sort_Demo\obj\Debug\netcoreapp2.1\Custom_Sort_Demo.pdb

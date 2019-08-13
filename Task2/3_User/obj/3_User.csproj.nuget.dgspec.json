@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\XT_NET\\Task2\\3_User\\3_User.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\XT_NET\\Task2\\3_User\\3_User.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\XT_NET\\Task2\\3_User\\3_User.csproj",
+        "projectName": "3_User",
+        "projectPath": "D:\\Projects\\XT_NET\\Task2\\3_User\\3_User.csproj",
+        "packagesPath": "C:\\Users\\Toga\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\XT_NET\\Task2\\3_User\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Toga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[1.1.2, )",
+              "autoReferenced": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
