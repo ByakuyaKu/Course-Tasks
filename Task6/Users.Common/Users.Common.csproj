@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Users.Common\Users.Common.csproj" />
     <ProjectReference Include="..\Users.DAL\Users.DAL.csproj" />
     <ProjectReference Include="..\UsersEntities\Users.Entities.csproj" />
   </ItemGroup>

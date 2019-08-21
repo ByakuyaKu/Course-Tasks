@@ -7,16 +7,16 @@ using Users.Entities;
 
 namespace Users.DAL
 {
-    public class AwardsStorage
+    public class AwardsStorage : IAwardStorage
     {
         public static List<Awards> ListWithAwards { get; set; }
 
-        static AwardsStorage()
+        public AwardsStorage()
         {
             ListWithAwards = new List<Awards>();
         }
 
-        public static void AddAward(Awards award)
+        public void AddAward(Awards award)
         {
             if (ListWithAwards.Any(n => n.Name == award.Name))
                 Console.WriteLine("Error!!! This award already exists");
@@ -24,9 +24,9 @@ namespace Users.DAL
                 ListWithAwards.Add(award);
         }
 
-        public static List<Awards> GetAllAwards() => ListWithAwards;
+        public List<Awards> GetAllAwards() => ListWithAwards;
 
-        public static void DeleteAward(Guid id)
+        public void DeleteAward(Guid id)
         {
             if (!ListWithAwards.Any(n => n.Id == id))
                 Console.WriteLine("Error!!! Wrong name");
@@ -34,7 +34,7 @@ namespace Users.DAL
                 ListWithAwards.RemoveAll(n => n.Id == id);
         }
 
-        public static void AddUserToAward(Guid UserId, Guid AwardId) =>
+        public void AddUserToAward(Guid UserId, Guid AwardId) =>
             ListWithAwards.Find(n => n.Id == AwardId).UserNamesWithAward.Add(UsersStorage.ListWithUsers.Find(n => n.UserId == UserId).name);
     }
 }

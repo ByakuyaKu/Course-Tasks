@@ -3,29 +3,32 @@ using System.Collections.Generic;
 using System.Text;
 using Users.Entities;
 using Users.DAL;
-
+using Users.Common;
 namespace Users.BLL
 {
     public class UsersManager
     {
 
-        public void AddUser(Userss user) => UsersStorage.AddUser(user);
+        private static IUsersStorage UserStorage => Dependecies.UserStorage;
+        private static IAwardStorage AwardStorage => Dependecies.AwardStorage;
 
-        public List<Userss> GetAllUsers() => UsersStorage.GetAllUsers();
+        public void AddUser(Userss user) => UserStorage.AddUser(user);
 
-        public void DeleteUser(Guid id) => UsersStorage.DeleteUser(id);
+        public List<Userss> GetAllUsers() => UserStorage.GetAllUsers();
+
+        public void DeleteUser(Guid id) => UserStorage.DeleteUser(id);
 
 
-        public void AddAward(Awards award) => AwardsStorage.AddAward(award);
+        public void AddAward(Awards award) => AwardStorage.AddAward(award);
 
-        public void DeleteAward(Guid id) => AwardsStorage.DeleteAward(id);
+        public void DeleteAward(Guid id) => AwardStorage.DeleteAward(id);
 
-        public List<Awards> GetAllAwards() => AwardsStorage.GetAllAwards();
+        public List<Awards> GetAllAwards() => AwardStorage.GetAllAwards();
 
         public void AddAwardToUser(Guid UserId, Guid AwardId)
         {
-            if (UsersStorage.AddAwardToUser(UserId, AwardId))
-                AwardsStorage.AddUserToAward(UserId, AwardId);
+            if (UserStorage.AddAwardToUser(UserId, AwardId))
+                AwardStorage.AddUserToAward(UserId, AwardId);
         }
 
 
