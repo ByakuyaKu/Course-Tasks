@@ -32,6 +32,7 @@ namespace Users.PL
                     && option < 8) 
                 {
                     UsersManager manager = new UsersManager();
+                    AwardsManager Manager = new AwardsManager();
                     Guid UserId;
                     Guid AwardId;
                     switch (option)
@@ -86,7 +87,7 @@ namespace Users.PL
                                 var Name = Console.ReadLine();
 
                                 Awards award = new Awards(Name);
-                                manager.AddAward(award);
+                                Manager.AddAward(award);
 
                                 break;
                             }
@@ -104,7 +105,7 @@ namespace Users.PL
 
                                     if (!Guid.TryParse(Console.ReadLine(), out AwardId))
                                         Console.WriteLine("Error!!! Wrong id format");
-                                    else if (!manager.GetAllAwards().Exists(n => n.Id == AwardId))
+                                    else if (!Manager.GetAllAwards().Exists(n => n.Id == AwardId))
                                         Console.WriteLine("Error!!! This award does not exist");
                                     else
                                         manager.AddAwardToUser(UserId, AwardId);
@@ -118,16 +119,16 @@ namespace Users.PL
 
                                 if (!Guid.TryParse(Console.ReadLine(), out AwardId))
                                     Console.WriteLine("Error!!! Wrong id format");
-                                else if (!manager.GetAllAwards().Exists(n => n.Id == AwardId))
+                                else if (!Manager.GetAllAwards().Exists(n => n.Id == AwardId))
                                     Console.WriteLine("Error!!! This award does not exist");
                                 else
-                                    manager.DeleteAward(AwardId);
+                                    Manager.DeleteAward(AwardId);
 
                                 break;
                             }
                         case 7:
                             {
-                                foreach (Awards award in manager.GetAllAwards())
+                                foreach (Awards award in Manager.GetAllAwards())
                                     Console.WriteLine(award);
 
                                 break;

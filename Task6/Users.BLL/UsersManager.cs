@@ -4,6 +4,7 @@ using System.Text;
 using Users.Entities;
 using Users.DAL;
 using Users.Common;
+
 namespace Users.BLL
 {
     public class UsersManager
@@ -19,11 +20,11 @@ namespace Users.BLL
         public void DeleteUser(Guid id) => UserStorage.DeleteUser(id);
 
 
-        public void AddAward(Awards award) => AwardStorage.AddAward(award);
+        //public void AddAward(Awards award) => AwardStorage.AddAward(award);
 
-        public void DeleteAward(Guid id) => AwardStorage.DeleteAward(id);
+        //public void DeleteAward(Guid id) => AwardStorage.DeleteAward(id);
 
-        public List<Awards> GetAllAwards() => AwardStorage.GetAllAwards();
+        //public List<Awards> GetAllAwards() => AwardStorage.GetAllAwards();
 
         public void AddAwardToUser(Guid UserId, Guid AwardId)
         {
