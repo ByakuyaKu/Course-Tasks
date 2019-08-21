@@ -1,6 +1,7 @@
 ﻿using System;
 using Users.BLL;
 using Users.Entities;
+using System.Linq;
 
 namespace Users.PL
 {
@@ -31,6 +32,8 @@ namespace Users.PL
                     && option < 8) 
                 {
                     UsersManager manager = new UsersManager();
+                    Guid UserId;
+                    Guid AwardId;
                     switch (option)
                     {
                         case 1:
@@ -39,10 +42,12 @@ namespace Users.PL
                                 var Name = Console.ReadLine();
 
                                 Console.WriteLine("Enter date of birth");
-                                DateTime DateOfBirth = Convert.ToDateTime(Console.ReadLine());
+                                DateTime DateOfBirth;
 
-                                if (DateOfBirth > DateTime.Now)
-                                    Console.WriteLine("Error!!! Wrong date");
+                                if (!DateTime.TryParse(Console.ReadLine(), out DateOfBirth))
+                                    Console.WriteLine("Error!!! Wrong date format");
+                                else if (DateOfBirth > DateTime.Now)
+                                    Console.WriteLine("Error!!! Wrong date"); 
                                 else
                                 {
                                     Userss newUser = new Userss(Name, DateOfBirth);
@@ -56,9 +61,14 @@ namespace Users.PL
                         case 2:
                             {
                                 Console.WriteLine("Enter user id");
-                                Guid Id = Guid.Parse(Console.ReadLine());
 
-                                manager.DeleteUser(Id);
+                                if (!Guid.TryParse(Console.ReadLine(), out UserId))
+                                    Console.WriteLine("Error!!! Wrong id format");
+                                else if (!manager.GetAllUsers().Exists(n => n.UserId == UserId))
+                                    Console.WriteLine("Error!!! This user does not exist");
+                                else
+                                    manager.DeleteUser(UserId);
+
 
                                 break;
                             }
@@ -67,11 +77,14 @@ namespace Users.PL
                             {
                                 foreach(Userss user in manager.GetAllUsers())
                                     Console.WriteLine(user);
+
                                 break;
                             }
                         case 4:
                             {
-                                string Name = Console.ReadLine();
+                                Console.WriteLine("Enter award name");
+                                var Name = Console.ReadLine();
+
                                 Awards award = new Awards(Name);
                                 manager.AddAward(award);
 
@@ -79,16 +92,36 @@ namespace Users.PL
                             }
                         case 5:
                             {
-                                Guid UserId = Guid.Parse(Console.ReadLine());
-                                Guid AwardId = Guid.Parse(Console.ReadLine());
-                                manager.AddAwardToUser(UserId, AwardId);
+                                Console.WriteLine("Enter user Id");
+
+                                if (!Guid.TryParse(Console.ReadLine(), out UserId))
+                                    Console.WriteLine("Error!!! Wrong id format");
+                                else if (!manager.GetAllUsers().Exists(n => n.UserId == UserId))
+                                    Console.WriteLine("Error!!! This user does not exist");
+                                else
+                                {
+                                    Console.WriteLine("Enter award Id");
+
+                                    if (!Guid.TryParse(Console.ReadLine(), out AwardId))
+                                        Console.WriteLine("Error!!! Wrong id format");
+                                    else if (!manager.GetAllAwards().Exists(n => n.Id == AwardId))
+                                        Console.WriteLine("Error!!! This award does not exist");
+                                    else
+                                        manager.AddAwardToUser(UserId, AwardId);
+                                }
 
                                 break;
                             }
                         case 6:
                             {
-                                Guid AwardId = Guid.Parse(Console.ReadLine());
-                                manager.DeleteAward(AwardId);
+                                Console.WriteLine("Enter award Id");
+
+                                if (!Guid.TryParse(Console.ReadLine(), out AwardId))
+                                    Console.WriteLine("Error!!! Wrong id format");
+                                else if (!manager.GetAllAwards().Exists(n => n.Id == AwardId))
+                                    Console.WriteLine("Error!!! This award does not exist");
+                                else
+                                    manager.DeleteAward(AwardId);
 
                                 break;
                             }
@@ -106,6 +139,8 @@ namespace Users.PL
                             }
                     }
                 }
+                else
+                    Console.WriteLine("Error!!! Wrong option");
             }
         }
     }

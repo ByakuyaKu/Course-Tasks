@@ -27,5 +27,7 @@ namespace Users.BLL
             if (UsersStorage.AddAwardToUser(UserId, AwardId))
                 AwardsStorage.AddUserToAward(UserId, AwardId);
         }
+
+
     }
 }
