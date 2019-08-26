@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-size: 19px;
+}
+.menuBox{
+    display: grid;
+    grid-auto-flow: column;
+    line-height: 1;
+    width: 200px;
+    top: 25%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.menuItem{
+    position: relative;	
+}
+.menuLabel{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+.menuLabel:hover{
+    border-bottom: 1px solid gray;
+    border-radius: 5px 5px 0 0;
+}
+.menuSub{
+    border-radius: 0 5px 5px 5px;
+    padding: 1px;
+    position: absolute;
+    top: 5px;
+    transition: top .8s ease;
+    visibility: hidden;
+    list-style-type: none;
+}
+.menuItem:hover>.menuSub{
+    top: 12px;
+    visibility: visible;
+	border: 1px solid;
+}
+.menuItem:hover>.menuLabel{
+ background-color: gray;
+}
+.menuSubItem{
+    cursor: pointer;
+    padding: 7px 15px;
+}
+li:hover{
+    background-color: gray;
+}

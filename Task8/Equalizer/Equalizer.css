@@ -1,0 +1,23 @@
+.blocks{
+    margin: 5px;
+    width: 80px;
+    height: 40px;
+    background-image: linear-gradient(to top, orange, yellow);
+    background-attachment: fixed;
+}
+.firstBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.blocks:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#mainBlock{
+    display: flex;
+    margin: auto;
+}
+body{
+    background-color: gray;
+}
