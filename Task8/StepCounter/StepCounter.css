@@ -14,8 +14,7 @@ span{
     font-size: 20px;
     padding: 5px 10px;;
 }
-span::before,
-span::after{
+span::before, span::after{
     content: "";
     position: absolute;
     width: 100%;
