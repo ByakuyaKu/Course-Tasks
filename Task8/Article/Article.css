@@ -1,0 +1,30 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    width: 430px;
+    padding: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.text {
+    background: linear-gradient(to top, gray, white);
+    padding: 70px 30px 20px 20px;
+    border-radius: 0 0 10px 10px;
+    border: 0px solid;
+}
+
+.head {
+    background: black;
+    width: 100px;
+    transform: skew(-30deg);
+    color: orange;
+    font-size: 30px;
+    float: left;
+    position: relative;
+    left: -16px;
+    padding: 10px 10px 10px 30px;
+}
+.titleText {
+    transform: skew(30deg);
+}
